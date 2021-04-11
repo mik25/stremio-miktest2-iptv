@@ -1,7 +1,7 @@
 {
-	"name": "stremio-addon-ptiptv",
+	"name": "miktest2iptv",
 	"version": "0.0.7",
-	"description": "Collection of 8000+ publicly available IPTV channels from all over the world.",
+	"description": "headers test",
 	"engines": {
 		"node": "12.x"
 	},

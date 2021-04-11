@@ -50,9 +50,9 @@ const manifest = {
 	  }],
 	resources: ["catalog", "meta", "stream"],
 	types: ['tv'],
-	name: "IPTVorg",
-	description: "Collection of 8000+ publicly available IPTV channels from all over the world.",
-	idPrefixes: ['iptvorg']
+	name: "miktest2 iptv",
+	description: "headers test",
+	idPrefixes: ['miktest2 iptv']
 }
 function match(r,s,i){
 	var m = s.match(r);
@@ -63,7 +63,7 @@ function getSearch(){
 	return new Promise((resolve, reject) => {
 		const now = Math.round(Date.now()/1000);
 		if(search_cache.timestamp<now-cache.maxAge){
-			request('https://iptv-org.github.io/iptv/index.m3u', function (error, response, body) {
+			request('https://github.com/mik25/stremio-miktest2-iptv/playlist.m3u', function (error, response, body) {
 				if(error){
 					reject(error);
 				}else if (!response || response.statusCode!=200 ){

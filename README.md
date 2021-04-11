@@ -1,7 +1,7 @@
-# Stremio addon for IPTVorg - Collection of 8000+ publicly available IPTV channels from all over the world.
+# Stremio addon for IPTV - From Help Y?ourself
 
 ## Deploy It Yourself
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jlvcm/stremio-ptiptv)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mik25/stremio-miktest2-iptv)
 
 ## Docker It Yourself
-[docker push joaolvcm/stremio-ptiptv](https://hub.docker.com/repository/docker/joaolvcm/stremio-ptiptv)
+[docker push mik25/stremio-miktest2-iptv](https://hub.docker.com/repository/docker/mik25/stremio-miktest2-iptv)
