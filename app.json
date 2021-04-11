@@ -1,7 +1,7 @@
 {
-  "name": "Stremio miktest2 iptv",
-  "description": "headers test",
-  "repository": "https://github.com/mik25/stremio-miktest2-iptv",
-  "logo": "https://github.com/mik25/stremio-miktest2-iptv",
-  "keywords": ["node", "stremio", MikMc"]
+  "name": "Stremio MIktest",
+  "description": "IPTV from HY",
+  "repository": "https://github.com/jlvcm/stremio-ptiptv",
+  "logo": "https://github.com/jlvcm/stremio-ptiptv",
+  "keywords": ["node", "stremio", "hy","MikMc"]
 }
