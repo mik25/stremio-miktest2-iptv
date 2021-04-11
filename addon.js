@@ -63,7 +63,7 @@ function getSearch(){
 	return new Promise((resolve, reject) => {
 		const now = Math.round(Date.now()/1000);
 		if(search_cache.timestamp<now-cache.maxAge){
-			request('https://github.com/mik25/stremio-miktest2-iptv/playlist.m3u', function (error, response, body) {
+			request('https://github.com/mik25/stremio-miktest2-iptv/static/playlist.m3u', function (error, response, body) {
 				if(error){
 					reject(error);
 				}else if (!response || response.statusCode!=200 ){
@@ -124,7 +124,7 @@ function getData(country){
 	return new Promise((resolve, reject) => {
 		var url = 'https://mik25/stremio-miktest2-iptv/'+countries[country]+'.m3u';
 		if (countries[country]=='unsorted'){
-			url = 'https://raw.githubusercontent.com/mik25/stremio-miktest2-iptv/master/index.m3u';
+			url = 'https://raw.githubusercontent.com/mik25/stremio-miktest2-iptv/master/playlists/playlist.m3u';
 		}
 		request(url, function (error, response, body) {
 			if(error){
