@@ -124,7 +124,7 @@ function getData(country){
 	return new Promise((resolve, reject) => {
 		var url = 'https://mik25/stremio-miktest2-iptv/'+countries[country]+'.m3u';
 		if (countries[country]=='unsorted'){
-			url = 'https://raw.githubusercontent.com/mik25/stremio-miktest2-iptv/master/index.m3u';
+			url = 'https://raw.githubusercontent.com/mik25/stremio-miktest2-iptv/master/static/playlist.m3u';
 		}
 		request(url, function (error, response, body) {
 			if(error){
