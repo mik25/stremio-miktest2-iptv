@@ -1,0 +1,1 @@
+{"id":"org.livegameseventsandppv","version":"1.0.1","name":"Live Games,Events and PPV","description":"World Sport live games and events/PPV","resources":["stream","meta","catalog"],"types":["tv","channel"],"idPrefixes":["LIVESPECIAL"],"icon":"https://livespecial.surge.sh/logo.png","catalogs":[{"id":"LIVESPECIALcat","name":"Live Games,Events and PPV","type":"tv"}]}
