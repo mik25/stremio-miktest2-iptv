@@ -3,7 +3,7 @@
 	"version": "0.0.7",
 	"description": "headers test",
 	"engines": {
-		"node": "12.x"
+		"node": "18.x"
 	},
 	"scripts": {
 		"start": "node server.js"
