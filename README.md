@@ -1,6 +1,6 @@
 # Stremio addon for IPTV - From Help Yourself
 
-<a href="https://deploy.cyclic.sh/mik25/bitsearch-1">
+<a href="https://deploy.cyclic.sh/mik25/stremio-miktest2-iptv">
     <img src="https://deploy.cyclic.sh/button.svg" />
 </a>
 
